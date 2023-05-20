@@ -1,0 +1,41 @@
+.header__nav {
+  display: flex;
+  overflow: hidden;
+}
+
+.header__logo {
+  flex: 1;
+  display: flex;
+  position: relative;
+  padding: 20px;
+}
+
+.header__logo-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  z-index: -1;
+  background-color: var(--primary-color);
+}
+.header__logo h4 {
+  padding-left: 30px;
+  color: #fff;
+}
+
+.header__menu {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+}
+.header__menu img {
+  padding-right: 20px;
+}
+.header__menu li a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.header__menu-mobile {
+  display: none;
+}
